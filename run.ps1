@@ -2,7 +2,7 @@
 $GITHUB_USERNAME = "bielzindaagua"
 $GITHUB_EMAIL = "oliveira.chaves@academico.ifpb.edu.br"
 
-$SERVICE_NAME = "order"
+$SERVICE_NAME = "payment"
 $RELEASE_VERSION = "v1.2.3"
 
 # Instala o plugin do Protobuf para Go
