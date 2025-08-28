@@ -2,7 +2,7 @@
 $GITHUB_USERNAME = "bielzindaagua"
 $GITHUB_EMAIL = "oliveira.chaves@academico.ifpb.edu.br"
 
-$SERVICE_NAME = "payment"
+$SERVICE_NAME = "shipping"
 $RELEASE_VERSION = "v1.2.3"
 
 # Instala o plugin do Protobuf para Go
@@ -18,7 +18,7 @@ protoc --go_out=./golang `
   --go_opt=paths=source_relative `
   --go-grpc_out=./golang `
   --go-grpc_opt=paths=source_relative `
-  .\$SERVICE_NAME\*.proto
+  .\*.proto
 
 Write-Host "Generated Go source code files"
 Get-ChildItem -Path "golang\$SERVICE_NAME"
